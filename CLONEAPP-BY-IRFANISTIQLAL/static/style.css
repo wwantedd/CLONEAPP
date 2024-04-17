@@ -1,0 +1,106 @@
+body {
+    background: #6a11cb;
+    background: -webkit-linear-gradient(to right, rgb(42, 101, 124), rgb(209, 210, 212));
+    background: linear-gradient(to right, rgb(82, 114, 129), rgb(205, 209, 214));
+}
+
+#root {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        /* Remove the outline from the video embed */
+        #root video {
+            outline: none;
+        }
+
+        /* Style the "Back to Dashboard" button */
+        .back-to-dashboard {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+        }
+
+        .back-to-dashboard button {
+            padding: 10px 20px;
+            background-color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Hide any content that overflows the viewport */
+        body {
+            overflow: hidden;
+        }
+
+        .form {
+    /* Style the form element */
+    background: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-row {
+    /* Style the input elements */
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .form-input {
+    /* Remove default styling for form inputs */
+    -webkit-appearance: none;
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    z-index: 1;
+  }
+
+  .form-input::placeholder {
+    /* Style the placeholder text */
+    color: #999;
+  }
+
+  .form-label {
+    /* Style the labels */
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+
+  .form-control {
+    /* Style the input controls */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+
+  .form-control:focus {
+    /* Style the focused input controls */
+    box-shadow: 0 0 2px 1px rgba(0, 123, 255, 0.25);
+  }
+
+  button {
+    /* Style the submit button */
+    background: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    /* Style the hover effect for the submit button */
+    background: #0069d9;
+  }
+  
+
+
